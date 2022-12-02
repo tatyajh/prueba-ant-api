@@ -1,4 +1,4 @@
-const db = require("src/models/db");
+const db = require("../models/db");
 
 const get = async () => {
   const result = await db.query(

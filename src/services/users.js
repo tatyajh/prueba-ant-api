@@ -1,4 +1,4 @@
-const userModel = require('src/models/users');
+const userModel = require('../models/users');
 
 const modelToDto = (user) => ({
   id: user.id,

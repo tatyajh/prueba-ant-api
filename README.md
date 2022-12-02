@@ -22,23 +22,20 @@ CREATE DATABASE YOUR_DATABASE_NAME;
 CREATE USER 'YOUR_USER'@'%' IDENTIFIED BY 'YOUR_PASSWORD';
 GRANT ALL PRIVILEGES ON YOUR_DATABASE_NAME.* TO 'YOUR_USER'@'%';
 CREATE TABLE users (
-    id int NOT NULL AUTO_INCREMENT,
-    name varchar(255),
-    username varchar(255),
-    email varchar(255),
-    addressStreet varchar(255),
-    addressSuite varchar(255),
-    addressCity varchar(255),
-    addressZipcode varchar(255),
-    addressGeoLat varchar(50),
-    addressGeoLng varchar(50),
-    phone varchar(255),
-    website varchar(255),
-    companyName varchar(255),
-    companyCatchPhrase varchar(255),
-    companyBs varchar(255)
+     id	int(11) Auto Increment,
+     name	varchar(255) NULL,
+     username	varchar(255) NULL,
+     email	varchar(255) NULL,
+     addressStreet	varchar(255) NULL,
+     addressSuite	varchar(255) NULL,
+     addressCity	varchar(255) NULL,
+     addressZipcode	varchar(255) NULL,
+     addressGeoLat	varchar(50) NULL,
+     addressGeoLng	varchar(50) NULL,
+     phone	varchar(255) NULL,
+     website	varchar(255) NULL,
+     companyName	varchar(255) NULL,
+     companyCatchPhrase	varchar(255) NULL,
+     companyBs	varchar(255) NULL,
 );
 ```
-
-
-
